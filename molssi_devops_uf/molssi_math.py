@@ -2,8 +2,27 @@
 molssi_math.py
 A sample repository for the MolSSI Workshop at UF.
 
-Handles the primary functions
+Some math functions.
 """
+
+def mean(num_list):
+    """
+    Calculate the mean/average of a list of numbers.
+
+    Parameters
+    ----------
+    num_list : list
+        The list to take the average of
+
+    Returns
+    -------
+    mean_list : float
+        The mean of the list
+    """
+    assert len(num_list) > 0
+    num_sum = sum(float(num) for num in num_list)
+    mean_list = num_sum / float(len(num_list))
+    return float(mean_list)
 
 
 def canvas(with_attribution=True):
