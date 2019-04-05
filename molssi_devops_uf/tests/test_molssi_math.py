@@ -2,8 +2,8 @@
 Tests for molssi_math module
 """
 
+import statistics
 import pytest
-import numpy as np
 import molssi_devops_uf as md_uf
 
 
@@ -23,7 +23,7 @@ def num_list(request):
 
 @pytest.fixture
 def num_list_and_mean(num_list):
-    return (num_list, np.mean([float(num) for num in num_list]))
+    return (num_list, statistics.mean([float(num) for num in num_list]))
 
 
 def test_mean(num_list_and_mean):
