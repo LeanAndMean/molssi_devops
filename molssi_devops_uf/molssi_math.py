@@ -5,6 +5,7 @@ A sample repository for the MolSSI Workshop at UF.
 Some math functions.
 """
 
+
 def mean(num_list):
     """
     Calculate the mean/average of a list of numbers.
