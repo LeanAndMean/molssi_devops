@@ -5,6 +5,7 @@ A sample repository for the MolSSI Workshop at UF.
 
 # Add imports here
 from .molssi_math import canvas, mean
+from .string_util import title_case
 
 # Handle versioneer
 from ._version import get_versions
