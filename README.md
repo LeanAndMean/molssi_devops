@@ -7,6 +7,12 @@ molssi_devops_uf
 
 A sample repository for the MolSSI Workshop at UF.
 
+This repository is currently under development.
+
+To do a developmental install, type
+
+`pip install -e .`
+
 ### Copyright
 
 Copyright (c) 2019, Kevin Ryan
